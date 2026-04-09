@@ -747,6 +747,22 @@ export function MiddleEarthExplorer() {
           <span className="railGlyph">⌂</span>
           <span>Reset</span>
         </button>
+        <div className="atlasRailSpacer" />
+        <a
+          className="railButton railLinkButton"
+          data-map-control="true"
+          href="https://github.com/hbahadorzadeh/middle-earth-map"
+          onPointerDown={(event) => event.stopPropagation()}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <span className="railGlyph railGlyphIcon" aria-hidden="true">
+            <svg fill="currentColor" height="20" viewBox="0 0 24 24" width="20">
+              <path d="M12 1.25a10.75 10.75 0 0 0-3.4 20.95c.54.1.74-.23.74-.52v-1.82c-3.02.66-3.66-1.29-3.66-1.29-.5-1.24-1.21-1.57-1.21-1.57-.99-.68.08-.66.08-.66 1.1.08 1.67 1.12 1.67 1.12.97 1.66 2.55 1.18 3.17.9.1-.71.39-1.18.7-1.46-2.41-.27-4.95-1.2-4.95-5.34 0-1.18.42-2.15 1.12-2.9-.11-.27-.49-1.38.11-2.88 0 0 .91-.29 2.98 1.11a10.4 10.4 0 0 1 5.42 0c2.07-1.4 2.98-1.11 2.98-1.11.6 1.5.22 2.61.11 2.88.7.75 1.12 1.72 1.12 2.9 0 4.15-2.54 5.07-4.96 5.34.4.34.75 1 .75 2.03v3.01c0 .29.19.63.75.52A10.75 10.75 0 0 0 12 1.25Z" />
+            </svg>
+          </span>
+          <span>GitHub</span>
+        </a>
       </aside>
 
       <section

@@ -61,6 +61,11 @@ input {
   z-index: 5;
 }
 
+.atlasRailSpacer {
+  flex: 1 1 auto;
+  min-height: 0.5rem;
+}
+
 .railButton {
   align-items: center;
   background: transparent;
@@ -73,6 +78,11 @@ input {
   gap: 0.45rem;
   padding: 0.8rem 0.25rem;
   width: 100%;
+}
+
+.railLinkButton {
+  color: rgba(244, 236, 215, 0.68);
+  text-decoration: none;
 }
 
 .railButton:hover,
@@ -91,6 +101,12 @@ input {
 .railGlyph {
   font-size: 1.25rem;
   line-height: 1;
+}
+
+.railGlyphIcon {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .atlasSidebar,
