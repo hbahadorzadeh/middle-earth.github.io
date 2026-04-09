@@ -1,0 +1,195 @@
+{
+  "output_dir": "/Users/hamed/Project/lotr/public/poi",
+  "images_per_location_target": 8,
+  "locations": [
+    {
+      "location": "treebeards-hall",
+      "query": "Treebeard hall Fangorn Tolkien art ents dwelling forest house",
+      "saved_count": 8,
+      "items": [
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/treebeards-hall/01_Fangorn_Treebeard.jpg",
+          "title": "Fangorn/Treebeard",
+          "image_url": "http://img-fan.theonering.net/rolozo/images/nasmith/welling.jpg",
+          "page_url": "https://valarguild.org/tolkien/encyc/articles/f/Fangorn/Fangorn.htm",
+          "query": "Treebeard hall Fangorn Tolkien art ents dwelling forest house"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/treebeards-hall/02_Fangorn_Treebeard.jpg",
+          "title": "Fangorn/Treebeard",
+          "image_url": "http://img-fan.theonering.net/rolozo/images/hildebrandt/treebeard.jpg",
+          "page_url": "https://valarguild.org/tolkien/encyc/articles/f/Fangorn/Fangorn.htm",
+          "query": "Treebeard hall Fangorn Tolkien art ents dwelling forest house"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/treebeards-hall/03_Rolozo_Tolkien.jpg",
+          "title": "Rolozo Tolkien",
+          "image_url": "http://img-fan.theonering.net/rolozo/images/nasmith/TN-Fangorn_Forest.jpg",
+          "page_url": "http://fan.theonering.net/rolozo/collection/nasmith",
+          "query": "Treebeard hall Fangorn Tolkien art ents dwelling forest house"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/treebeards-hall/04_Fangorn_Forest_Middle_Earth_Framed_Wall_Art_Lord_of_the_Rings_Poster_....jpg",
+          "title": "Fangorn Forest Middle Earth Framed Wall Art Lord of the Rings Poster ...",
+          "image_url": "https://i.etsystatic.com/47713755/r/il/129a93/6033186553/il_794xN.6033186553_21qi.jpg",
+          "page_url": "https://www.etsy.com/listing/1715974516/fangorn-forest-middle-earth-framed-wall",
+          "query": "Treebeard hall Fangorn Tolkien art ents dwelling forest house"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/treebeards-hall/05_Treebeard_in_the_Fangorn_Forest_Canvas_Print_LOTR_Art_LOTR_Print_....jpg",
+          "title": "Treebeard in the Fangorn Forest Canvas Print, LOTR Art, LOTR Print ...",
+          "image_url": "https://i.etsystatic.com/20317338/r/il/385384/5511657594/il_1080xN.5511657594_nty2.jpg",
+          "page_url": "https://www.etsy.com/listing/1612675825/treebeard-in-the-fangorn-forest-canvas",
+          "query": "Treebeard hall Fangorn Tolkien art ents dwelling forest house"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/treebeards-hall/06_Fangorn_Treebeard.jpg",
+          "title": "Fangorn/Treebeard",
+          "image_url": "http://img-fan.theonering.net/rolozo/images/matthews/treebeard.jpg",
+          "page_url": "https://valarguild.org/tolkien/encyc/articles/f/Fangorn/Fangorn.htm",
+          "query": "Treebeard hall Fangorn Tolkien art ents dwelling forest house"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/treebeards-hall/07_Fangorn_Treebeard.jpg",
+          "title": "Fangorn/Treebeard",
+          "image_url": "http://img-fan.theonering.net/rolozo/images/lee/lee20.jpg",
+          "page_url": "https://valarguild.org/tolkien/encyc/articles/f/Fangorn/Fangorn.htm",
+          "query": "Treebeard hall Fangorn Tolkien art ents dwelling forest house"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/treebeards-hall/08_Fangorn_Treebeard.jpg",
+          "title": "Fangorn/Treebeard",
+          "image_url": "http://img-fan.theonering.net/rolozo/images/price/treebeard_ent.jpg",
+          "page_url": "https://valarguild.org/tolkien/encyc/articles/f/Fangorn/Fangorn.htm",
+          "query": "Treebeard hall Fangorn Tolkien art ents dwelling forest house"
+        }
+      ]
+    },
+    {
+      "location": "wellinghall",
+      "query": "Wellinghall Fangorn Tolkien art Treebeard house ents dwelling",
+      "saved_count": 8,
+      "items": [
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/wellinghall/01_Fangorn_Treebeard.jpg",
+          "title": "Fangorn/Treebeard",
+          "image_url": "http://img-fan.theonering.net/rolozo/images/nasmith/welling.jpg",
+          "page_url": "https://valarguild.org/tolkien/encyc/articles/f/Fangorn/Fangorn.htm",
+          "query": "Wellinghall Fangorn Tolkien art Treebeard house ents dwelling"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/wellinghall/02_Entish_Sanctuary_of_Wellinghall_in_Fangorn_s_Steep..._-_AI_Art.jpg",
+          "title": "Entish Sanctuary of Wellinghall in Fangorn's Steep... - AI Art",
+          "image_url": "https://images.nightcafe.studio/jobs/RAzxmUA9jrQXKkL5JXze/RAzxmUA9jrQXKkL5JXze--0--2nleu.jpg?tr=w-1600,c-at_max",
+          "page_url": "https://creator.nightcafe.studio/creation/RAzxmUA9jrQXKkL5JXze/treebeards-home-of-wellinghall-carved-into-the-side-of-a-steep-sided-valley-within-fangorn-three-wal",
+          "query": "Wellinghall Fangorn Tolkien art Treebeard house ents dwelling"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/wellinghall/03_Fangorn_Treebeard.jpg",
+          "title": "Fangorn/Treebeard",
+          "image_url": "http://img-fan.theonering.net/rolozo/images/hildebrandt/treebeard.jpg",
+          "page_url": "https://valarguild.org/tolkien/encyc/articles/f/Fangorn/Fangorn.htm",
+          "query": "Wellinghall Fangorn Tolkien art Treebeard house ents dwelling"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/wellinghall/04_Treebeard_at_Wellinghall_Print_Miriam_Ellis.jpg",
+          "title": "\"Treebeard at Wellinghall\" Print | Miriam Ellis",
+          "image_url": "https://static.wixstatic.com/media/56d8e4_048a90146d1a40069502ad5767245f99~mv2.png/v1/fill/w_980,h_980,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/56d8e4_048a90146d1a40069502ad5767245f99~mv2.png",
+          "page_url": "https://www.miriamellis.com/product-page/treebeard-at-wellinghall-print",
+          "query": "Wellinghall Fangorn Tolkien art Treebeard house ents dwelling"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/wellinghall/05_Treebeard_at_Wellinghall_-_Miriam_Ellis_by_MiriamEllisFineArt_on_DeviantArt.jpg",
+          "title": "Treebeard at Wellinghall - Miriam Ellis by MiriamEllisFineArt on DeviantArt",
+          "image_url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b728909f-09b0-4f9c-901a-586c2a0327d5/dhpzn7f-17cffa5f-fc4b-41ae-a23b-d6c4139e4229.jpg/v1/fill/w_755,h_1059,q_70,strp/treebeard_at_wellinghall___miriam_ellis_by_miriamellisfineart_dhpzn7f-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTY4NCIsInBhdGgiOiJcL2ZcL2I3Mjg5MDlmLTA5YjAtNGY5Yy05MDFhLTU4NmMyYTAzMjdkNVwvZGhwem43Zi0xN2NmZmE1Zi1mYzRiLTQxYWUtYTIzYi1kNmM0MTM5ZTQyMjkuanBnIiwid2lkdGgiOiI8PTEyMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.j6w6HO7jyk4vKnG25PSCRQ_4Xf_np5HT4goFvN8wPoI",
+          "page_url": "https://www.deviantart.com/miriamellisfineart/art/Treebeard-at-Wellinghall-Miriam-Ellis-1071578427",
+          "query": "Wellinghall Fangorn Tolkien art Treebeard house ents dwelling"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/wellinghall/06_Fangorn_Treebeard.jpg",
+          "title": "Fangorn/Treebeard",
+          "image_url": "http://img-fan.theonering.net/rolozo/images/lee/lee20.jpg",
+          "page_url": "https://valarguild.org/tolkien/encyc/articles/f/Fangorn/Fangorn.htm",
+          "query": "Wellinghall Fangorn Tolkien art Treebeard house ents dwelling"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/wellinghall/07_ents_on_Tumblr.jpg",
+          "title": "ents on Tumblr",
+          "image_url": "https://64.media.tumblr.com/715cd95c4837c9b2d403f2db2f46f738/3e5d8cc2f73076e1-a9/s540x810/b261b21b2b623066933056d1371dca39b7dc5f9f.jpg",
+          "page_url": "https://www.tumblr.com/tagged/ents",
+          "query": "Wellinghall Fangorn Tolkien art Treebeard house ents dwelling"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/wellinghall/08_Fangorn_Treebeard.jpg",
+          "title": "Fangorn/Treebeard",
+          "image_url": "http://img-fan.theonering.net/rolozo/images/nasmith/TN-Fangorn_Forest.jpg",
+          "page_url": "https://valarguild.org/tolkien/encyc/articles/f/Fangorn/Fangorn.htm",
+          "query": "Wellinghall Fangorn Tolkien art Treebeard house ents dwelling"
+        }
+      ]
+    },
+    {
+      "location": "entmoot",
+      "query": "Entmoot Derndingle Fangorn Tolkien art ents gathering",
+      "saved_count": 8,
+      "items": [
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/entmoot/01_Assemble_the_Entmoot_Card_EDHREC.jpg",
+          "title": "Assemble the Entmoot (Card) | EDHREC",
+          "image_url": "https://cards.scryfall.io/art_crop/front/4/0/409c226b-ef01-4ccd-b23e-d94bdc1e4aa5.jpg?1686964035",
+          "page_url": "https://edhrec.com/cards/assemble-the-entmoot",
+          "query": "Entmoot Derndingle Fangorn Tolkien art ents gathering"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/entmoot/02_Encyclopedia_of_Tolkien_s_Middle_Earth_The_Doors_of_Durin_are_the_....jpg",
+          "title": "Encyclopedia of Tolkien's Middle Earth — The Doors of Durin are the ...",
+          "image_url": "https://64.media.tumblr.com/7825773c127b85ee5b76df55928b7ebc/tumblr_o4v9b7jpbB1v8heu6o1_1280.jpg",
+          "page_url": "https://tolkienmatters.tumblr.com/post/146047351552/the-doors-of-durin-are-the-western-gate-of-moria",
+          "query": "Entmoot Derndingle Fangorn Tolkien art ents gathering"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/entmoot/03_Entmoot_LOTR_Tolkien_Middle_earth_art_Lotr_art_Tolkien_art.jpg",
+          "title": "Entmoot #LOTR #Tolkien | Middle earth art, Lotr art, Tolkien art",
+          "image_url": "https://i.pinimg.com/originals/12/9a/f5/129af54368248334d2ef0b0d99a254a0.jpg",
+          "page_url": "https://pl.pinterest.com/pin/17240411069792568/",
+          "query": "Entmoot Derndingle Fangorn Tolkien art ents gathering"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/entmoot/04_Ents_of_Fangorn_Fantasy_Creatures_Mythical_Creatures_Fantasy_World_....jpg",
+          "title": "Ents of Fangorn Fantasy Creatures, Mythical Creatures, Fantasy World ...",
+          "image_url": "https://i.pinimg.com/originals/e8/53/19/e85319b587e0992531951bdf693d88ec.jpg",
+          "page_url": "https://www.pinterest.com/pin/106960559885061271/",
+          "query": "Entmoot Derndingle Fangorn Tolkien art ents gathering"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/entmoot/05_Ents_-_Lord_of_the_Rings_Wiki.webp",
+          "title": "Ents - Lord of the Rings Wiki",
+          "image_url": "http://img2.wikia.nocookie.net/__cb20070728000817/lotr/images/b/bb/Many_ents.png",
+          "page_url": "http://lotr.wikia.com/wiki/Ents",
+          "query": "Entmoot Derndingle Fangorn Tolkien art ents gathering"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/entmoot/06_ents_on_Tumblr.jpg",
+          "title": "ents on Tumblr",
+          "image_url": "https://64.media.tumblr.com/715cd95c4837c9b2d403f2db2f46f738/3e5d8cc2f73076e1-a9/s2048x3072/110e4c26685c333b68397b3281c7a60d0695b842.jpg",
+          "page_url": "https://www.tumblr.com/tagged/ents",
+          "query": "Entmoot Derndingle Fangorn Tolkien art ents gathering"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/entmoot/07_The_Voices_of_Ents_in_Tolkien.jpg",
+          "title": "The Voices of Ents in Tolkien",
+          "image_url": "https://static.wixstatic.com/media/56d8e4_154e249388b94b20bdf7f38959ff4a8a~mv2.jpg/v1/fill/w_980,h_817,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/56d8e4_154e249388b94b20bdf7f38959ff4a8a~mv2.jpg",
+          "page_url": "https://www.miriamellis.com/post/the-voices-of-ents-in-tolkien",
+          "query": "Entmoot Derndingle Fangorn Tolkien art ents gathering"
+        },
+        {
+          "file": "/Users/hamed/Project/lotr/public/poi/entmoot/08_ArtStation_-_Fangorn_Forest_LOTR_STORY.jpg",
+          "title": "ArtStation - Fangorn Forest LOTR STORY",
+          "image_url": "https://cdnb.artstation.com/p/assets/images/images/083/923/611/large/anthony-catillaz-photo-output.jpg?1737313964",
+          "page_url": "https://www.artstation.com/artwork/OvP12K",
+          "query": "Entmoot Derndingle Fangorn Tolkien art ents gathering"
+        }
+      ]
+    }
+  ]
+}
