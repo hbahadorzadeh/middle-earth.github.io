@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Checking your browser</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#2d3436;color:#b2bec3;font-family:-apple-system,system-ui,sans-serif;
+  display:flex;justify-content:center;align-items:center;min-height:100vh;flex-direction:column}
+.wrap{text-align:center;max-width:420px;padding:20px}
+.img{margin-bottom:24px}
+.img img{max-width:200px;max-height:200px;border-radius:8px}
+.msg{font-size:14px;margin-bottom:16px;opacity:0.7}
+.bar-bg{width:240px;height:3px;background:#636e72;border-radius:2px;margin:0 auto;overflow:hidden}
+.bar{height:100%;width:0%;background:#dfe6e9;transition:width 0.3s}
+.fail{color:#d63031;font-size:13px;margin-top:12px;display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="img" id="img"><img src="/_/static/pensive.webp" alt=""></div>
+  <div class="msg">Verifying you are human...</div>
+  <div class="bar-bg"><div class="bar" id="bar"></div></div>
+  <div class="fail" id="fail">Verification failed. Reloading...</div>
+</div>
+<script>
+(function(){
+  var startTime = performance.now();
+  var C = {"ch":"d47a50c9810134bd5262ddc8a3cb54fb76aeda74a113641b71148e36d7412756","d":4,"id":"a40cd9c9f210057902dd96f393a696b0","path":"/images/thumb/8/89/Shire_Mathom_House.jpg/300px-Shire_Mathom_House.jpg","t":300};
+  var W = Math.max(1, navigator.hardwareConcurrency || 4);
+  var done = false;
+  var checked = 0;
+  var total = Math.pow(16, C.d);
+  var bar = document.getElementById('bar');
+
+  var src = '(' + function(){
+    var BATCH = 512;
+    self.onmessage = async function(e){
+      var ch = e.data.ch;
+      var d = e.data.d;
+      var start = e.data.start;
+      var stride = e.data.stride;
+      var enc = new TextEncoder();
+      var n = start;
+      while(true){
+        var promises = [];
+        var nonces = [];
+        for(var i = 0; i < BATCH; i++){
+          promises.push(crypto.subtle.digest('SHA-256', enc.encode(ch + n)));
+          nonces.push(n);
+          n += stride;
+        }
+        var results = await Promise.all(promises);
+        for(var i = 0; i < results.length; i++){
+          var bytes = new Uint8Array(results[i]);
+          var ok = true;
+          for(var j = 0; j < d; j++){
+            var hexPair = j >> 1;
+            if(j % 2 === 0){
+              if((bytes[hexPair] >> 4) !== 0){ok = false; break;}
+            } else {
+              if((bytes[hexPair] & 0xf) !== 0){ok = false; break;}
+            }
+          }
+          if(ok){
+            self.postMessage({found: true, nonce: nonces[i]});
+            return;
+          }
+        }
+        self.postMessage({found: false, count: BATCH});
+      }
+    };
+  }.toString() + ')()';
+  var blob = new Blob([src], {type: 'application/javascript'});
+  var url = URL.createObjectURL(blob);
+  var workers = [];
+
+  for(var i = 0; i < W; i++){
+    var w = new Worker(url);
+    w.onmessage = function(e){
+      if(done) return;
+      if(e.data.found){
+        done = true;
+        bar.style.width = '100%';
+        for(var j = 0; j < workers.length; j++) workers[j].terminate();
+        var form = document.createElement('form');
+        form.method = 'POST';
+        form.action = '/_/verify';
+        var f1 = document.createElement('input');
+        f1.type = 'hidden'; f1.name = 'id'; f1.value = C.id;
+        var f2 = document.createElement('input');
+        f2.type = 'hidden'; f2.name = 'nonce'; f2.value = e.data.nonce;
+        var f3 = document.createElement('input');
+        f3.type = 'hidden'; f3.name = 'path'; f3.value = C.path;
+        var f4 = document.createElement('input');
+        f4.type = 'hidden'; f4.name = 'elapsed_ms';
+        f4.value = Math.round(performance.now() - startTime);
+        form.appendChild(f1); form.appendChild(f2); form.appendChild(f3);
+        form.appendChild(f4);
+        document.body.appendChild(form);
+        form.submit();
+      } else {
+        checked += e.data.count;
+        var pct = Math.min(95, (checked / total) * 100);
+        bar.style.width = pct + '%';
+      }
+    };
+    w.postMessage({ch: C.ch, d: C.d, start: i, stride: W});
+    workers.push(w);
+  }
+
+  setTimeout(function(){
+    if(!done){
+      done = true;
+      for(var j = 0; j < workers.length; j++) workers[j].terminate();
+      document.getElementById('fail').style.display = 'block';
+      setTimeout(function(){ location.reload(); }, 3000);
+    }
+  }, C.t * 1000);
+})();
+</script>
+</body>
+</html>
