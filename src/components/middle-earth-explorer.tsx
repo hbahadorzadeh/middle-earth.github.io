@@ -16,6 +16,7 @@ import {
   type SearchableFeature
 } from "@/data/middle-earth";
 import { POI_FOLDER_MEDIA } from "@/data/poi-folder-media";
+import { withBasePath } from "@/lib/base-path";
 
 type ComparisonId = Exclude<ReferenceMapSource["id"], "mapome">;
 
@@ -328,7 +329,7 @@ function buildVisibleTiles(level: MapTileLevel, bounds: ViewBox): VisibleTile[] 
 
       tiles.push({
         key: `${level.id}-${row}-${column}`,
-        href: `${level.path}/${row}-${column}.jpg`,
+        href: withBasePath(`${level.path}/${row}-${column}.jpg`),
         x,
         y,
         width,
@@ -356,7 +357,7 @@ function buildFallbackSlides(feature: ProjectedFeature): LocalPoiSlide[] {
   return [
     {
       type: "local",
-      src: `/poi/generated/${feature.id}.svg`,
+      src: withBasePath(`/poi/generated/${feature.id}.svg`),
       title: `${feature.name} concept render`,
       caption:
         "A locally generated 3D-style landmark concept render created for the atlas in the spirit of the Minas Tirith reference image.",
@@ -368,7 +369,7 @@ function buildFallbackSlides(feature: ProjectedFeature): LocalPoiSlide[] {
     },
     {
       type: "local",
-      src: "/maps/mapome.png",
+      src: withBasePath("/maps/mapome.png"),
       title: `${feature.name} on the calibrated atlas`,
       caption:
         "A focused crop from the primary detailed atlas, centered on the selected point of interest.",
@@ -380,7 +381,7 @@ function buildFallbackSlides(feature: ProjectedFeature): LocalPoiSlide[] {
     },
     {
       type: "local",
-      src: "/maps/sketch-reference.svg",
+      src: withBasePath("/maps/sketch-reference.svg"),
       title: `${feature.name} on the sketch reference`,
       caption:
         "A secondary crop from the sketch-style comparison map to cross-check placement against Tolkien-era map traditions.",
@@ -392,7 +393,7 @@ function buildFallbackSlides(feature: ProjectedFeature): LocalPoiSlide[] {
     },
     {
       type: "local",
-      src: "/maps/political-reference.svg",
+      src: withBasePath("/maps/political-reference.svg"),
       title: `${feature.name} within the realms`,
       caption:
         "A regional crop from the political comparison layer, useful for seeing the place in its wider kingdom or territory.",
@@ -410,7 +411,7 @@ function buildFolderSlides(feature: ProjectedFeature): LocalPoiSlide[] {
 
   return folderSlides.map((slide) => ({
     type: "local",
-    src: slide.src,
+    src: withBasePath(slide.src),
     title: slide.title,
     caption: `Local reference image for ${feature.name}.`,
     attribution: "Local project asset",
@@ -1180,7 +1181,7 @@ export function MiddleEarthExplorer() {
               {activeComparisonMap?.source ? (
                 <image
                   height={activeComparisonMap.layout.height}
-                  href={activeComparisonMap.source.href}
+                  href={withBasePath(activeComparisonMap.source.href)}
                   opacity={comparisonOpacity}
                   preserveAspectRatio="xMinYMin meet"
                   width={activeComparisonMap.layout.width}
