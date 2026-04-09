@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.log
+
+.env
+.env.local
+.env.*.local
+
+public/poi/.venv/
+public/poi/__pycache__/
+**/__pycache__/
+*.py[cod]

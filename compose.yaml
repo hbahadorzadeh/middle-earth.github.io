@@ -1,0 +1,10 @@
+services:
+  middle-earth-atlas:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      HOSTNAME: 0.0.0.0
+      PORT: 3000
