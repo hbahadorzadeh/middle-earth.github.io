@@ -718,7 +718,7 @@ input[type="range"] {
   left: 1rem;
   pointer-events: auto;
   position: absolute;
-  z-index: 3;
+  z-index: 6;
 }
 
 .layersButton,
@@ -1079,7 +1079,7 @@ input[type="range"] {
 }
 
 .mapHudFade {
-  opacity: 0.38;
+  opacity: 0.62;
   transition:
     opacity 160ms ease,
     transform 160ms ease,
@@ -1321,9 +1321,17 @@ input[type="range"] {
     left: 0.8rem;
   }
 
+  .mapHudFade {
+    opacity: 0.92;
+  }
+
+  .mapHudFade:hover,
+  .mapHudFade:focus-within {
+    opacity: 0.92;
+  }
+
   .mapControlDock {
-    bottom: 0.8rem;
-    right: 0.8rem;
+    display: none;
   }
 
   .mapRotateButton,

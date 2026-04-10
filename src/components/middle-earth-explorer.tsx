@@ -431,6 +431,12 @@ export function MiddleEarthExplorer() {
     startY: number;
     view: ViewBox;
   } | null>(null);
+  const pinchRef = useRef<{
+    startDistance: number;
+    originX: number;
+    originY: number;
+    view: ViewBox;
+  } | null>(null);
 
   const [containerSize, setContainerSize] = useState<ContainerSize>({
     width: 0,
@@ -710,6 +716,32 @@ export function MiddleEarthExplorer() {
     });
   }
 
+  function beginPinch(
+    firstTouch: { clientX: number; clientY: number },
+    secondTouch: { clientX: number; clientY: number }
+  ) {
+    const rect = containerRef.current?.getBoundingClientRect();
+    if (!rect) {
+      return;
+    }
+
+    const deltaX = secondTouch.clientX - firstTouch.clientX;
+    const deltaY = secondTouch.clientY - firstTouch.clientY;
+    const distance = Math.hypot(deltaX, deltaY);
+
+    if (distance <= 0) {
+      return;
+    }
+
+    pinchRef.current = {
+      startDistance: distance,
+      originX: ((firstTouch.clientX + secondTouch.clientX) / 2 - rect.left) / rect.width,
+      originY: ((firstTouch.clientY + secondTouch.clientY) / 2 - rect.top) / rect.height,
+      view: viewBox
+    };
+    dragRef.current = null;
+  }
+
   return (
     <main className={`atlasShell ${isSidebarCollapsed ? "atlasShellSidebarCollapsed" : ""}`}>
       <aside className="atlasRail" data-map-control="true">
@@ -970,6 +1002,59 @@ export function MiddleEarthExplorer() {
           }}
           onPointerUp={() => {
             dragRef.current = null;
+          }}
+          onTouchEnd={(event) => {
+            if (event.touches.length < 2) {
+              pinchRef.current = null;
+            }
+          }}
+          onTouchMove={(event) => {
+            if (event.touches.length !== 2) {
+              return;
+            }
+
+            const currentPinch = pinchRef.current;
+            if (!currentPinch) {
+              beginPinch(event.touches[0], event.touches[1]);
+              return;
+            }
+
+            event.preventDefault();
+            hasUserAdjustedViewRef.current = true;
+
+            const nextDistance = Math.hypot(
+              event.touches[1].clientX - event.touches[0].clientX,
+              event.touches[1].clientY - event.touches[0].clientY
+            );
+
+            if (nextDistance <= 0) {
+              return;
+            }
+
+            const nextWidth = clamp(
+              currentPinch.view.width * (currentPinch.startDistance / nextDistance),
+              MIN_WIDTH,
+              MAX_WIDTH
+            );
+            const nextHeight = (nextWidth * INITIAL_VIEW.height) / INITIAL_VIEW.width;
+            const focusX =
+              currentPinch.view.x + currentPinch.view.width * currentPinch.originX;
+            const focusY =
+              currentPinch.view.y + currentPinch.view.height * currentPinch.originY;
+
+            setViewBox(
+              clampViewBox({
+                x: focusX - nextWidth * currentPinch.originX,
+                y: focusY - nextHeight * currentPinch.originY,
+                width: nextWidth,
+                height: nextHeight
+              })
+            );
+          }}
+          onTouchStart={(event) => {
+            if (event.touches.length === 2) {
+              beginPinch(event.touches[0], event.touches[1]);
+            }
           }}
           onWheel={(event) => {
             if (isMapControlTarget(event.target)) {
