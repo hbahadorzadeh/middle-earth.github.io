@@ -1,0 +1,128 @@
+label,x_svg,y_svg,x_norm,y_norm,category
+FORODWAITH,1891,96,0.5909,0.04,large_region
+RHÛN,2912,268,0.91,0.1117,large_region
+RHOVANION,1891,588,0.5909,0.245,large_region
+ERIADOR,661,609,0.2066,0.2537,large_region
+MIRKWOOD,2150,800,0.6719,0.3333,large_region
+ROHAN,1521,1372,0.4753,0.5717,large_region
+GONDOR,1991,1864,0.6222,0.7767,large_region
+MORDOR,2259,1825,0.7059,0.7604,large_region
+NEAR HARAD,1920,2328,0.6,0.97,large_region
+IRON HILLS,2865,449,0.8953,0.1871,large_region
+MINHIRIATH,960,1074,0.3,0.4475,large_region
+ENEDWAITH,822,952,0.2569,0.3967,large_region
+DUNLAND,1254,1277,0.3919,0.5321,large_region
+Icebay of Forochel,768,216,0.24,0.09,region
+Angmar / Mountains of Angmar,1452,212,0.4537,0.0883,region
+Carn Dûm,1407,176,0.4397,0.0733,place
+Forlond,1198,232,0.3744,0.0967,place
+Here was old the Witch-realm of Angmar,1238,300,0.3869,0.125,note
+Langwell,1867,266,0.5834,0.1108,river
+Ered Mithrin (Grey Mountains),1656,259,0.5175,0.1079,region
+Ettenmoors,1585,276,0.4953,0.115,region
+Withered Heath,1920,347,0.6,0.1446,region
+Erebor (The Lonely Mountain),1937,433,0.6053,0.1804,place
+Esgaroth upon the Long Lake,2220,484,0.6937,0.2017,place
+Wood Elves,2227,639,0.6959,0.2662,place
+Mountains of Mirkwood,2527,525,0.7897,0.2188,region
+Fortindon,163,280,0.0509,0.1167,place
+Gulf of Lhûn,471,306,0.1472,0.1275,region
+Harlindon,211,577,0.0659,0.2404,region
+Ered Luin (Blue Mountains),623,444,0.1947,0.185,region
+Harlond,820,382,0.2562,0.1592,place
+Lune,897,444,0.2803,0.185,river
+North Downs,1048,420,0.3275,0.175,region
+Weather Hills,1448,433,0.4525,0.1804,region
+Rivendell,1502,400,0.4694,0.1667,place
+Carrock,1656,360,0.5175,0.15,place
+Old Forest Road,1745,355,0.5453,0.1479,road
+Lond Daer,414,664,0.1294,0.2767,place
+The Shire,545,620,0.1703,0.2583,region
+Bree,601,614,0.1878,0.2558,place
+Weathertop (Amon Sûl),769,622,0.2403,0.2592,place
+The Last Bridge,836,614,0.2612,0.2558,place
+Fornost,958,590,0.2994,0.2458,place
+South Downs,985,676,0.3078,0.2817,region
+Sarn Ford,987,745,0.3084,0.3104,place
+Tharbad,1103,604,0.3447,0.2517,place
+Bruinen / Loudwater,1171,558,0.3659,0.2325,river
+East-West Road,854,724,0.2669,0.3017,road
+Old Forest,987,745,0.3084,0.3104,region
+Midgewater,897,724,0.2803,0.3017,region
+Michel Delving,710,717,0.2219,0.2988,place
+Baranduin (Brandywine),702,735,0.2194,0.3063,river
+Greenway,610,670,0.1906,0.2792,road
+Moria Gate,1325,566,0.4141,0.2358,place
+Dimrill Dale,1449,552,0.4528,0.23,place
+Gladden Fields,1474,736,0.4606,0.3067,region
+Nin-in-Eilph (Swanfleet),1206,674,0.3769,0.2808,region
+Mitheirhel,1086,694,0.3394,0.2892,river
+Ereg (Hollin),1399,662,0.4372,0.2758,region
+Glanduin,1411,686,0.4409,0.2858,river
+Lorien / Caras Galadhon,1443,723,0.4509,0.3013,place
+Nimrodel,1474,736,0.4606,0.3067,river
+Anduin (The Great River),1605,641,0.5016,0.2671,river
+East Bight,1693,584,0.5291,0.2433,region
+Celduin (River Running),1729,596,0.5403,0.2483,river
+Wood Elves (Forest),1784,630,0.5575,0.2625,region
+Old Ford,1803,569,0.5634,0.2371,place
+Emyn Muil,1688,924,0.5275,0.385,region
+Dagorlad (Battle Plain),1977,614,0.6178,0.2558,region
+The Brown Lands,2559,660,0.7997,0.275,region
+The Wold,2404,705,0.7512,0.2938,region
+Sea of Rhûn,2681,947,0.8378,0.3946,region
+Celduin / River Running east,2222,554,0.6944,0.2308,river
+Isengard,1050,774,0.3281,0.3225,place
+Fangorn,1137,762,0.3553,0.3175,region
+West Emnet,1165,791,0.3641,0.3296,region
+East Emnet,1317,795,0.4116,0.3312,region
+Helm's Deep,1657,761,0.5178,0.3171,place
+Edoras,1696,794,0.53,0.3308,place
+Snowbourn,1707,758,0.5334,0.3158,river
+Fords of Isen,912,1028,0.285,0.4283,place
+Adorn,1099,969,0.3434,0.4037,river
+Angren (Isen),1385,995,0.4328,0.4146,river
+Westfold,1564,960,0.4888,0.4,region
+Limlight,1775,1005,0.5547,0.4188,river
+North Undeep,1908,979,0.5962,0.4079,place
+South Undeep,1944,995,0.6075,0.4146,place
+Minas Tirith,1299,916,0.4059,0.3817,place
+Pelennor Fields,1327,890,0.4147,0.3708,region
+Plateau of Gorgoroth,1707,1164,0.5334,0.485,region
+Ered Lithui (Ash Mountains),1851,778,0.5784,0.3242,region
+Isenmouthe,1846,801,0.5769,0.3337,place
+Barad-dûr,1851,778,0.5784,0.3242,place
+Orodruin (Mount Doom),1775,1005,0.5547,0.4188,place
+Morannon,2013,1181,0.6291,0.4921,place
+Udûn,2032,1208,0.635,0.5033,place
+Falls of Rauros,2169,845,0.6778,0.3521,place
+Linhir,2086,844,0.6519,0.3517,place
+Dagorlad,1944,995,0.6075,0.4146,region
+Pinnath Gelin,714,1088,0.2231,0.4533,region
+Anfalas (Langstrand),1072,1074,0.335,0.4475,region
+Erech,1636,1056,0.5112,0.44,place
+Andrast (Ras Morthil),1744,1134,0.545,0.4725,place
+Lamedon,1756,1118,0.5487,0.4658,region
+Dol Amroth,1232,1284,0.385,0.535,place
+Lebennin,1254,1277,0.3919,0.5321,region
+Belfalas,1346,1280,0.4206,0.5333,region
+Pelargir,1549,1314,0.4841,0.5475,place
+Tolfalas,1775,1253,0.5547,0.5221,place
+Ethir Anduin,1941,1344,0.6066,0.56,river
+Anórien,1159,1419,0.3622,0.5913,region
+Ithilien,1328,1385,0.415,0.5771,region
+South Gondor / Harondor,1442,1356,0.4506,0.565,region
+Emyn Arnen,1523,1438,0.4759,0.5992,region
+EPHEL DÚATH,1707,1432,0.5334,0.5967,region
+Nindalf,1774,1364,0.5544,0.5683,region
+Cirith Ungol,1123,1206,0.3509,0.5025,place
+Minas Morgul,970,1227,0.3031,0.5112,place
+Poros (river),1894,1243,0.5919,0.5179,river
+Crossings of Poros,1924,1246,0.6012,0.5192,place
+Morannon (outer),2014,1529,0.6294,0.6371,place
+Nûrn,2229,1795,0.6966,0.7479,region
+Sea of Núrnen,2259,1825,0.7059,0.7604,region
+Khand,2865,1449,0.8953,0.6038,region
+Harad Road,1510,1408,0.4719,0.5867,road
+N (compass),363,1746,0.1134,0.7275,legend
+Miles (scale bar),400,2152,0.125,0.8967,legend

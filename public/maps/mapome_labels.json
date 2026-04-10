@@ -1,0 +1,1018 @@
+[
+  {
+    "label": "FORODWAITH",
+    "x_svg": 1891,
+    "y_svg": 96,
+    "x_norm": 0.5909,
+    "y_norm": 0.04,
+    "category": "large_region"
+  },
+  {
+    "label": "RHÛN",
+    "x_svg": 2912,
+    "y_svg": 268,
+    "x_norm": 0.91,
+    "y_norm": 0.1117,
+    "category": "large_region"
+  },
+  {
+    "label": "RHOVANION",
+    "x_svg": 1891,
+    "y_svg": 588,
+    "x_norm": 0.5909,
+    "y_norm": 0.245,
+    "category": "large_region"
+  },
+  {
+    "label": "ERIADOR",
+    "x_svg": 661,
+    "y_svg": 609,
+    "x_norm": 0.2066,
+    "y_norm": 0.2537,
+    "category": "large_region"
+  },
+  {
+    "label": "MIRKWOOD",
+    "x_svg": 2150,
+    "y_svg": 800,
+    "x_norm": 0.6719,
+    "y_norm": 0.3333,
+    "category": "large_region"
+  },
+  {
+    "label": "ROHAN",
+    "x_svg": 1521,
+    "y_svg": 1372,
+    "x_norm": 0.4753,
+    "y_norm": 0.5717,
+    "category": "large_region"
+  },
+  {
+    "label": "GONDOR",
+    "x_svg": 1991,
+    "y_svg": 1864,
+    "x_norm": 0.6222,
+    "y_norm": 0.7767,
+    "category": "large_region"
+  },
+  {
+    "label": "MORDOR",
+    "x_svg": 2259,
+    "y_svg": 1825,
+    "x_norm": 0.7059,
+    "y_norm": 0.7604,
+    "category": "large_region"
+  },
+  {
+    "label": "NEAR HARAD",
+    "x_svg": 1920,
+    "y_svg": 2328,
+    "x_norm": 0.6,
+    "y_norm": 0.97,
+    "category": "large_region"
+  },
+  {
+    "label": "IRON HILLS",
+    "x_svg": 2865,
+    "y_svg": 449,
+    "x_norm": 0.8953,
+    "y_norm": 0.1871,
+    "category": "large_region"
+  },
+  {
+    "label": "MINHIRIATH",
+    "x_svg": 960,
+    "y_svg": 1074,
+    "x_norm": 0.3,
+    "y_norm": 0.4475,
+    "category": "large_region"
+  },
+  {
+    "label": "ENEDWAITH",
+    "x_svg": 822,
+    "y_svg": 952,
+    "x_norm": 0.2569,
+    "y_norm": 0.3967,
+    "category": "large_region"
+  },
+  {
+    "label": "DUNLAND",
+    "x_svg": 1254,
+    "y_svg": 1277,
+    "x_norm": 0.3919,
+    "y_norm": 0.5321,
+    "category": "large_region"
+  },
+  {
+    "label": "Icebay of Forochel",
+    "x_svg": 768,
+    "y_svg": 216,
+    "x_norm": 0.24,
+    "y_norm": 0.09,
+    "category": "region"
+  },
+  {
+    "label": "Angmar / Mountains of Angmar",
+    "x_svg": 1452,
+    "y_svg": 212,
+    "x_norm": 0.4537,
+    "y_norm": 0.0883,
+    "category": "region"
+  },
+  {
+    "label": "Carn Dûm",
+    "x_svg": 1407,
+    "y_svg": 176,
+    "x_norm": 0.4397,
+    "y_norm": 0.0733,
+    "category": "place"
+  },
+  {
+    "label": "Forlond",
+    "x_svg": 1198,
+    "y_svg": 232,
+    "x_norm": 0.3744,
+    "y_norm": 0.0967,
+    "category": "place"
+  },
+  {
+    "label": "Here was old the Witch-realm of Angmar",
+    "x_svg": 1238,
+    "y_svg": 300,
+    "x_norm": 0.3869,
+    "y_norm": 0.125,
+    "category": "note"
+  },
+  {
+    "label": "Langwell",
+    "x_svg": 1867,
+    "y_svg": 266,
+    "x_norm": 0.5834,
+    "y_norm": 0.1108,
+    "category": "river"
+  },
+  {
+    "label": "Ered Mithrin (Grey Mountains)",
+    "x_svg": 1656,
+    "y_svg": 259,
+    "x_norm": 0.5175,
+    "y_norm": 0.1079,
+    "category": "region"
+  },
+  {
+    "label": "Ettenmoors",
+    "x_svg": 1585,
+    "y_svg": 276,
+    "x_norm": 0.4953,
+    "y_norm": 0.115,
+    "category": "region"
+  },
+  {
+    "label": "Withered Heath",
+    "x_svg": 1920,
+    "y_svg": 347,
+    "x_norm": 0.6,
+    "y_norm": 0.1446,
+    "category": "region"
+  },
+  {
+    "label": "Erebor (The Lonely Mountain)",
+    "x_svg": 1937,
+    "y_svg": 433,
+    "x_norm": 0.6053,
+    "y_norm": 0.1804,
+    "category": "place"
+  },
+  {
+    "label": "Esgaroth upon the Long Lake",
+    "x_svg": 2220,
+    "y_svg": 484,
+    "x_norm": 0.6937,
+    "y_norm": 0.2017,
+    "category": "place"
+  },
+  {
+    "label": "Wood Elves",
+    "x_svg": 2227,
+    "y_svg": 639,
+    "x_norm": 0.6959,
+    "y_norm": 0.2662,
+    "category": "place"
+  },
+  {
+    "label": "Mountains of Mirkwood",
+    "x_svg": 2527,
+    "y_svg": 525,
+    "x_norm": 0.7897,
+    "y_norm": 0.2188,
+    "category": "region"
+  },
+  {
+    "label": "Fortindon",
+    "x_svg": 163,
+    "y_svg": 280,
+    "x_norm": 0.0509,
+    "y_norm": 0.1167,
+    "category": "place"
+  },
+  {
+    "label": "Gulf of Lhûn",
+    "x_svg": 471,
+    "y_svg": 306,
+    "x_norm": 0.1472,
+    "y_norm": 0.1275,
+    "category": "region"
+  },
+  {
+    "label": "Harlindon",
+    "x_svg": 211,
+    "y_svg": 577,
+    "x_norm": 0.0659,
+    "y_norm": 0.2404,
+    "category": "region"
+  },
+  {
+    "label": "Ered Luin (Blue Mountains)",
+    "x_svg": 623,
+    "y_svg": 444,
+    "x_norm": 0.1947,
+    "y_norm": 0.185,
+    "category": "region"
+  },
+  {
+    "label": "Harlond",
+    "x_svg": 820,
+    "y_svg": 382,
+    "x_norm": 0.2562,
+    "y_norm": 0.1592,
+    "category": "place"
+  },
+  {
+    "label": "Lune",
+    "x_svg": 897,
+    "y_svg": 444,
+    "x_norm": 0.2803,
+    "y_norm": 0.185,
+    "category": "river"
+  },
+  {
+    "label": "North Downs",
+    "x_svg": 1048,
+    "y_svg": 420,
+    "x_norm": 0.3275,
+    "y_norm": 0.175,
+    "category": "region"
+  },
+  {
+    "label": "Weather Hills",
+    "x_svg": 1448,
+    "y_svg": 433,
+    "x_norm": 0.4525,
+    "y_norm": 0.1804,
+    "category": "region"
+  },
+  {
+    "label": "Rivendell",
+    "x_svg": 1502,
+    "y_svg": 400,
+    "x_norm": 0.4694,
+    "y_norm": 0.1667,
+    "category": "place"
+  },
+  {
+    "label": "Carrock",
+    "x_svg": 1656,
+    "y_svg": 360,
+    "x_norm": 0.5175,
+    "y_norm": 0.15,
+    "category": "place"
+  },
+  {
+    "label": "Old Forest Road",
+    "x_svg": 1745,
+    "y_svg": 355,
+    "x_norm": 0.5453,
+    "y_norm": 0.1479,
+    "category": "road"
+  },
+  {
+    "label": "Lond Daer",
+    "x_svg": 414,
+    "y_svg": 664,
+    "x_norm": 0.1294,
+    "y_norm": 0.2767,
+    "category": "place"
+  },
+  {
+    "label": "The Shire",
+    "x_svg": 545,
+    "y_svg": 620,
+    "x_norm": 0.1703,
+    "y_norm": 0.2583,
+    "category": "region"
+  },
+  {
+    "label": "Bree",
+    "x_svg": 601,
+    "y_svg": 614,
+    "x_norm": 0.1878,
+    "y_norm": 0.2558,
+    "category": "place"
+  },
+  {
+    "label": "Weathertop (Amon Sûl)",
+    "x_svg": 769,
+    "y_svg": 622,
+    "x_norm": 0.2403,
+    "y_norm": 0.2592,
+    "category": "place"
+  },
+  {
+    "label": "The Last Bridge",
+    "x_svg": 836,
+    "y_svg": 614,
+    "x_norm": 0.2612,
+    "y_norm": 0.2558,
+    "category": "place"
+  },
+  {
+    "label": "Fornost",
+    "x_svg": 958,
+    "y_svg": 590,
+    "x_norm": 0.2994,
+    "y_norm": 0.2458,
+    "category": "place"
+  },
+  {
+    "label": "South Downs",
+    "x_svg": 985,
+    "y_svg": 676,
+    "x_norm": 0.3078,
+    "y_norm": 0.2817,
+    "category": "region"
+  },
+  {
+    "label": "Sarn Ford",
+    "x_svg": 987,
+    "y_svg": 745,
+    "x_norm": 0.3084,
+    "y_norm": 0.3104,
+    "category": "place"
+  },
+  {
+    "label": "Tharbad",
+    "x_svg": 1103,
+    "y_svg": 604,
+    "x_norm": 0.3447,
+    "y_norm": 0.2517,
+    "category": "place"
+  },
+  {
+    "label": "Bruinen / Loudwater",
+    "x_svg": 1171,
+    "y_svg": 558,
+    "x_norm": 0.3659,
+    "y_norm": 0.2325,
+    "category": "river"
+  },
+  {
+    "label": "East-West Road",
+    "x_svg": 854,
+    "y_svg": 724,
+    "x_norm": 0.2669,
+    "y_norm": 0.3017,
+    "category": "road"
+  },
+  {
+    "label": "Old Forest",
+    "x_svg": 987,
+    "y_svg": 745,
+    "x_norm": 0.3084,
+    "y_norm": 0.3104,
+    "category": "region"
+  },
+  {
+    "label": "Midgewater",
+    "x_svg": 897,
+    "y_svg": 724,
+    "x_norm": 0.2803,
+    "y_norm": 0.3017,
+    "category": "region"
+  },
+  {
+    "label": "Michel Delving",
+    "x_svg": 710,
+    "y_svg": 717,
+    "x_norm": 0.2219,
+    "y_norm": 0.2988,
+    "category": "place"
+  },
+  {
+    "label": "Baranduin (Brandywine)",
+    "x_svg": 702,
+    "y_svg": 735,
+    "x_norm": 0.2194,
+    "y_norm": 0.3063,
+    "category": "river"
+  },
+  {
+    "label": "Greenway",
+    "x_svg": 610,
+    "y_svg": 670,
+    "x_norm": 0.1906,
+    "y_norm": 0.2792,
+    "category": "road"
+  },
+  {
+    "label": "Moria Gate",
+    "x_svg": 1325,
+    "y_svg": 566,
+    "x_norm": 0.4141,
+    "y_norm": 0.2358,
+    "category": "place"
+  },
+  {
+    "label": "Dimrill Dale",
+    "x_svg": 1449,
+    "y_svg": 552,
+    "x_norm": 0.4528,
+    "y_norm": 0.23,
+    "category": "place"
+  },
+  {
+    "label": "Gladden Fields",
+    "x_svg": 1474,
+    "y_svg": 736,
+    "x_norm": 0.4606,
+    "y_norm": 0.3067,
+    "category": "region"
+  },
+  {
+    "label": "Nin-in-Eilph (Swanfleet)",
+    "x_svg": 1206,
+    "y_svg": 674,
+    "x_norm": 0.3769,
+    "y_norm": 0.2808,
+    "category": "region"
+  },
+  {
+    "label": "Mitheirhel",
+    "x_svg": 1086,
+    "y_svg": 694,
+    "x_norm": 0.3394,
+    "y_norm": 0.2892,
+    "category": "river"
+  },
+  {
+    "label": "Ereg (Hollin)",
+    "x_svg": 1399,
+    "y_svg": 662,
+    "x_norm": 0.4372,
+    "y_norm": 0.2758,
+    "category": "region"
+  },
+  {
+    "label": "Glanduin",
+    "x_svg": 1411,
+    "y_svg": 686,
+    "x_norm": 0.4409,
+    "y_norm": 0.2858,
+    "category": "river"
+  },
+  {
+    "label": "Lorien / Caras Galadhon",
+    "x_svg": 1443,
+    "y_svg": 723,
+    "x_norm": 0.4509,
+    "y_norm": 0.3013,
+    "category": "place"
+  },
+  {
+    "label": "Nimrodel",
+    "x_svg": 1474,
+    "y_svg": 736,
+    "x_norm": 0.4606,
+    "y_norm": 0.3067,
+    "category": "river"
+  },
+  {
+    "label": "Anduin (The Great River)",
+    "x_svg": 1605,
+    "y_svg": 641,
+    "x_norm": 0.5016,
+    "y_norm": 0.2671,
+    "category": "river"
+  },
+  {
+    "label": "East Bight",
+    "x_svg": 1693,
+    "y_svg": 584,
+    "x_norm": 0.5291,
+    "y_norm": 0.2433,
+    "category": "region"
+  },
+  {
+    "label": "Celduin (River Running)",
+    "x_svg": 1729,
+    "y_svg": 596,
+    "x_norm": 0.5403,
+    "y_norm": 0.2483,
+    "category": "river"
+  },
+  {
+    "label": "Wood Elves (Forest)",
+    "x_svg": 1784,
+    "y_svg": 630,
+    "x_norm": 0.5575,
+    "y_norm": 0.2625,
+    "category": "region"
+  },
+  {
+    "label": "Old Ford",
+    "x_svg": 1803,
+    "y_svg": 569,
+    "x_norm": 0.5634,
+    "y_norm": 0.2371,
+    "category": "place"
+  },
+  {
+    "label": "Emyn Muil",
+    "x_svg": 1688,
+    "y_svg": 924,
+    "x_norm": 0.5275,
+    "y_norm": 0.385,
+    "category": "region"
+  },
+  {
+    "label": "Dagorlad (Battle Plain)",
+    "x_svg": 1977,
+    "y_svg": 614,
+    "x_norm": 0.6178,
+    "y_norm": 0.2558,
+    "category": "region"
+  },
+  {
+    "label": "The Brown Lands",
+    "x_svg": 2559,
+    "y_svg": 660,
+    "x_norm": 0.7997,
+    "y_norm": 0.275,
+    "category": "region"
+  },
+  {
+    "label": "The Wold",
+    "x_svg": 2404,
+    "y_svg": 705,
+    "x_norm": 0.7512,
+    "y_norm": 0.2938,
+    "category": "region"
+  },
+  {
+    "label": "Sea of Rhûn",
+    "x_svg": 2681,
+    "y_svg": 947,
+    "x_norm": 0.8378,
+    "y_norm": 0.3946,
+    "category": "region"
+  },
+  {
+    "label": "Celduin / River Running east",
+    "x_svg": 2222,
+    "y_svg": 554,
+    "x_norm": 0.6944,
+    "y_norm": 0.2308,
+    "category": "river"
+  },
+  {
+    "label": "Isengard",
+    "x_svg": 1050,
+    "y_svg": 774,
+    "x_norm": 0.3281,
+    "y_norm": 0.3225,
+    "category": "place"
+  },
+  {
+    "label": "Fangorn",
+    "x_svg": 1137,
+    "y_svg": 762,
+    "x_norm": 0.3553,
+    "y_norm": 0.3175,
+    "category": "region"
+  },
+  {
+    "label": "West Emnet",
+    "x_svg": 1165,
+    "y_svg": 791,
+    "x_norm": 0.3641,
+    "y_norm": 0.3296,
+    "category": "region"
+  },
+  {
+    "label": "East Emnet",
+    "x_svg": 1317,
+    "y_svg": 795,
+    "x_norm": 0.4116,
+    "y_norm": 0.3312,
+    "category": "region"
+  },
+  {
+    "label": "Helm's Deep",
+    "x_svg": 1657,
+    "y_svg": 761,
+    "x_norm": 0.5178,
+    "y_norm": 0.3171,
+    "category": "place"
+  },
+  {
+    "label": "Edoras",
+    "x_svg": 1696,
+    "y_svg": 794,
+    "x_norm": 0.53,
+    "y_norm": 0.3308,
+    "category": "place"
+  },
+  {
+    "label": "Snowbourn",
+    "x_svg": 1707,
+    "y_svg": 758,
+    "x_norm": 0.5334,
+    "y_norm": 0.3158,
+    "category": "river"
+  },
+  {
+    "label": "Fords of Isen",
+    "x_svg": 912,
+    "y_svg": 1028,
+    "x_norm": 0.285,
+    "y_norm": 0.4283,
+    "category": "place"
+  },
+  {
+    "label": "Adorn",
+    "x_svg": 1099,
+    "y_svg": 969,
+    "x_norm": 0.3434,
+    "y_norm": 0.4037,
+    "category": "river"
+  },
+  {
+    "label": "Angren (Isen)",
+    "x_svg": 1385,
+    "y_svg": 995,
+    "x_norm": 0.4328,
+    "y_norm": 0.4146,
+    "category": "river"
+  },
+  {
+    "label": "Westfold",
+    "x_svg": 1564,
+    "y_svg": 960,
+    "x_norm": 0.4888,
+    "y_norm": 0.4,
+    "category": "region"
+  },
+  {
+    "label": "Limlight",
+    "x_svg": 1775,
+    "y_svg": 1005,
+    "x_norm": 0.5547,
+    "y_norm": 0.4188,
+    "category": "river"
+  },
+  {
+    "label": "North Undeep",
+    "x_svg": 1908,
+    "y_svg": 979,
+    "x_norm": 0.5962,
+    "y_norm": 0.4079,
+    "category": "place"
+  },
+  {
+    "label": "South Undeep",
+    "x_svg": 1944,
+    "y_svg": 995,
+    "x_norm": 0.6075,
+    "y_norm": 0.4146,
+    "category": "place"
+  },
+  {
+    "label": "Minas Tirith",
+    "x_svg": 1299,
+    "y_svg": 916,
+    "x_norm": 0.4059,
+    "y_norm": 0.3817,
+    "category": "place"
+  },
+  {
+    "label": "Pelennor Fields",
+    "x_svg": 1327,
+    "y_svg": 890,
+    "x_norm": 0.4147,
+    "y_norm": 0.3708,
+    "category": "region"
+  },
+  {
+    "label": "Plateau of Gorgoroth",
+    "x_svg": 1707,
+    "y_svg": 1164,
+    "x_norm": 0.5334,
+    "y_norm": 0.485,
+    "category": "region"
+  },
+  {
+    "label": "Ered Lithui (Ash Mountains)",
+    "x_svg": 1851,
+    "y_svg": 778,
+    "x_norm": 0.5784,
+    "y_norm": 0.3242,
+    "category": "region"
+  },
+  {
+    "label": "Isenmouthe",
+    "x_svg": 1846,
+    "y_svg": 801,
+    "x_norm": 0.5769,
+    "y_norm": 0.3337,
+    "category": "place"
+  },
+  {
+    "label": "Barad-dûr",
+    "x_svg": 1851,
+    "y_svg": 778,
+    "x_norm": 0.5784,
+    "y_norm": 0.3242,
+    "category": "place"
+  },
+  {
+    "label": "Orodruin (Mount Doom)",
+    "x_svg": 1775,
+    "y_svg": 1005,
+    "x_norm": 0.5547,
+    "y_norm": 0.4188,
+    "category": "place"
+  },
+  {
+    "label": "Morannon",
+    "x_svg": 2013,
+    "y_svg": 1181,
+    "x_norm": 0.6291,
+    "y_norm": 0.4921,
+    "category": "place"
+  },
+  {
+    "label": "Udûn",
+    "x_svg": 2032,
+    "y_svg": 1208,
+    "x_norm": 0.635,
+    "y_norm": 0.5033,
+    "category": "place"
+  },
+  {
+    "label": "Falls of Rauros",
+    "x_svg": 2169,
+    "y_svg": 845,
+    "x_norm": 0.6778,
+    "y_norm": 0.3521,
+    "category": "place"
+  },
+  {
+    "label": "Linhir",
+    "x_svg": 2086,
+    "y_svg": 844,
+    "x_norm": 0.6519,
+    "y_norm": 0.3517,
+    "category": "place"
+  },
+  {
+    "label": "Dagorlad",
+    "x_svg": 1944,
+    "y_svg": 995,
+    "x_norm": 0.6075,
+    "y_norm": 0.4146,
+    "category": "region"
+  },
+  {
+    "label": "Pinnath Gelin",
+    "x_svg": 714,
+    "y_svg": 1088,
+    "x_norm": 0.2231,
+    "y_norm": 0.4533,
+    "category": "region"
+  },
+  {
+    "label": "Anfalas (Langstrand)",
+    "x_svg": 1072,
+    "y_svg": 1074,
+    "x_norm": 0.335,
+    "y_norm": 0.4475,
+    "category": "region"
+  },
+  {
+    "label": "Erech",
+    "x_svg": 1636,
+    "y_svg": 1056,
+    "x_norm": 0.5112,
+    "y_norm": 0.44,
+    "category": "place"
+  },
+  {
+    "label": "Andrast (Ras Morthil)",
+    "x_svg": 1744,
+    "y_svg": 1134,
+    "x_norm": 0.545,
+    "y_norm": 0.4725,
+    "category": "place"
+  },
+  {
+    "label": "Lamedon",
+    "x_svg": 1756,
+    "y_svg": 1118,
+    "x_norm": 0.5487,
+    "y_norm": 0.4658,
+    "category": "region"
+  },
+  {
+    "label": "Dol Amroth",
+    "x_svg": 1232,
+    "y_svg": 1284,
+    "x_norm": 0.385,
+    "y_norm": 0.535,
+    "category": "place"
+  },
+  {
+    "label": "Lebennin",
+    "x_svg": 1254,
+    "y_svg": 1277,
+    "x_norm": 0.3919,
+    "y_norm": 0.5321,
+    "category": "region"
+  },
+  {
+    "label": "Belfalas",
+    "x_svg": 1346,
+    "y_svg": 1280,
+    "x_norm": 0.4206,
+    "y_norm": 0.5333,
+    "category": "region"
+  },
+  {
+    "label": "Pelargir",
+    "x_svg": 1549,
+    "y_svg": 1314,
+    "x_norm": 0.4841,
+    "y_norm": 0.5475,
+    "category": "place"
+  },
+  {
+    "label": "Tolfalas",
+    "x_svg": 1775,
+    "y_svg": 1253,
+    "x_norm": 0.5547,
+    "y_norm": 0.5221,
+    "category": "place"
+  },
+  {
+    "label": "Ethir Anduin",
+    "x_svg": 1941,
+    "y_svg": 1344,
+    "x_norm": 0.6066,
+    "y_norm": 0.56,
+    "category": "river"
+  },
+  {
+    "label": "Anórien",
+    "x_svg": 1159,
+    "y_svg": 1419,
+    "x_norm": 0.3622,
+    "y_norm": 0.5913,
+    "category": "region"
+  },
+  {
+    "label": "Ithilien",
+    "x_svg": 1328,
+    "y_svg": 1385,
+    "x_norm": 0.415,
+    "y_norm": 0.5771,
+    "category": "region"
+  },
+  {
+    "label": "South Gondor / Harondor",
+    "x_svg": 1442,
+    "y_svg": 1356,
+    "x_norm": 0.4506,
+    "y_norm": 0.565,
+    "category": "region"
+  },
+  {
+    "label": "Emyn Arnen",
+    "x_svg": 1523,
+    "y_svg": 1438,
+    "x_norm": 0.4759,
+    "y_norm": 0.5992,
+    "category": "region"
+  },
+  {
+    "label": "EPHEL DÚATH",
+    "x_svg": 1707,
+    "y_svg": 1432,
+    "x_norm": 0.5334,
+    "y_norm": 0.5967,
+    "category": "region"
+  },
+  {
+    "label": "Nindalf",
+    "x_svg": 1774,
+    "y_svg": 1364,
+    "x_norm": 0.5544,
+    "y_norm": 0.5683,
+    "category": "region"
+  },
+  {
+    "label": "Cirith Ungol",
+    "x_svg": 1123,
+    "y_svg": 1206,
+    "x_norm": 0.3509,
+    "y_norm": 0.5025,
+    "category": "place"
+  },
+  {
+    "label": "Minas Morgul",
+    "x_svg": 970,
+    "y_svg": 1227,
+    "x_norm": 0.3031,
+    "y_norm": 0.5112,
+    "category": "place"
+  },
+  {
+    "label": "Poros (river)",
+    "x_svg": 1894,
+    "y_svg": 1243,
+    "x_norm": 0.5919,
+    "y_norm": 0.5179,
+    "category": "river"
+  },
+  {
+    "label": "Crossings of Poros",
+    "x_svg": 1924,
+    "y_svg": 1246,
+    "x_norm": 0.6012,
+    "y_norm": 0.5192,
+    "category": "place"
+  },
+  {
+    "label": "Morannon (outer)",
+    "x_svg": 2014,
+    "y_svg": 1529,
+    "x_norm": 0.6294,
+    "y_norm": 0.6371,
+    "category": "place"
+  },
+  {
+    "label": "Nûrn",
+    "x_svg": 2229,
+    "y_svg": 1795,
+    "x_norm": 0.6966,
+    "y_norm": 0.7479,
+    "category": "region"
+  },
+  {
+    "label": "Sea of Núrnen",
+    "x_svg": 2259,
+    "y_svg": 1825,
+    "x_norm": 0.7059,
+    "y_norm": 0.7604,
+    "category": "region"
+  },
+  {
+    "label": "Khand",
+    "x_svg": 2865,
+    "y_svg": 1449,
+    "x_norm": 0.8953,
+    "y_norm": 0.6038,
+    "category": "region"
+  },
+  {
+    "label": "Harad Road",
+    "x_svg": 1510,
+    "y_svg": 1408,
+    "x_norm": 0.4719,
+    "y_norm": 0.5867,
+    "category": "road"
+  },
+  {
+    "label": "N (compass)",
+    "x_svg": 363,
+    "y_svg": 1746,
+    "x_norm": 0.1134,
+    "y_norm": 0.7275,
+    "category": "legend"
+  },
+  {
+    "label": "Miles (scale bar)",
+    "x_svg": 400,
+    "y_svg": 2152,
+    "x_norm": 0.125,
+    "y_norm": 0.8967,
+    "category": "legend"
+  }
+]
