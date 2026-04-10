@@ -100,6 +100,12 @@ const COMPARISON_LAYOUTS: Record<
     y: 118,
     width: 2254,
     aspectRatio: 460.77039 / 511.45511
+  },
+  google: {
+    x: 0,
+    y: 0,
+    width: 3200,
+    aspectRatio: 3200 / 2400
   }
 };
 
@@ -1125,6 +1131,12 @@ export function MiddleEarthExplorer() {
                       title: "Realms",
                       subtitle: "Regions",
                       previewClass: "layersPreviewPolitical"
+                    },
+                    {
+                      id: "google" as const,
+                      title: "Roads",
+                      subtitle: "Atlas",
+                      previewClass: "layersPreviewGoogle"
                     }
                   ].map((option) => {
                     const isActive = comparisonMapId === option.id;
@@ -1174,7 +1186,15 @@ export function MiddleEarthExplorer() {
                 <span className="layersButtonPreview" />
                 <span className="layersButtonText">
                   <strong>Layers</strong>
-                  <small>{comparisonMapId === "none" ? "Off" : comparisonMapId === "sketch" ? "Sketch" : "Realms"}</small>
+                  <small>
+                    {comparisonMapId === "none"
+                      ? "Off"
+                      : comparisonMapId === "sketch"
+                        ? "Sketch"
+                        : comparisonMapId === "political"
+                          ? "Realms"
+                          : "Roads"}
+                  </small>
                 </span>
               </button>
             )}

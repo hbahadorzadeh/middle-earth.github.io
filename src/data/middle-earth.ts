@@ -15,7 +15,7 @@ export type FeatureKind =
 export type Point = { x: number; y: number };
 
 export type ReferenceMapSource = {
-  id: "mapome" | "sketch" | "political";
+  id: "mapome" | "sketch" | "political" | "google";
   name: string;
   href: string;
   description: string;
@@ -118,6 +118,13 @@ export const DOWNLOADED_MAP_SOURCES: ReferenceMapSource[] = [
     href: "/maps/political-reference.svg",
     description:
       "Regional overlay showing countries and realms for cross-checking broad territorial placement."
+  },
+  {
+    id: "google",
+    name: "Road Atlas",
+    href: "/maps/google-style-reference.jpg",
+    description:
+      "Modern road-and-region style Middle-earth reference map used as an additional comparison overlay."
   }
 ] as const;
 
