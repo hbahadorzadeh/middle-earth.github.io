@@ -10,7 +10,6 @@ import {
   POINTS,
   REFERENCE_MAP_HEIGHT,
   REFERENCE_MAP_WIDTH,
-  SOURCE_NOTES,
   type MapTileLevel,
   type ReferenceMapSource,
   type SearchableFeature
@@ -496,6 +495,10 @@ export function MiddleEarthExplorer() {
   }, []);
 
   useEffect(() => {
+    setIsSidebarCollapsed(window.matchMedia("(max-width: 720px)").matches);
+  }, []);
+
+  useEffect(() => {
     if (!containerSize.width) {
       return;
     }
@@ -835,54 +838,6 @@ export function MiddleEarthExplorer() {
                   </div>
                 </div>
 
-                <div className="sidebarCard">
-                  <p className="eyebrow">Map Tools</p>
-                  <label className="rangeLabelUi" htmlFor="marker-opacity">
-                    Marker Opacity
-                  </label>
-                  <input
-                    id="marker-opacity"
-                    max="1"
-                    min="0.25"
-                    onChange={(event) => setMarkerOpacity(Number(event.target.value))}
-                    step="0.02"
-                    type="range"
-                    value={markerOpacity}
-                  />
-                  <div className="measureToolbar">
-                    <button
-                      className={measureMode ? "toolbarButton toolbarButtonActive" : "toolbarButton"}
-                      onClick={() => {
-                        setMeasureMode((current) => !current);
-                        setMeasureSelection([null, null]);
-                      }}
-                      type="button"
-                    >
-                      {measureMode ? "Measuring" : "Measure Distance"}
-                    </button>
-                    <button
-                      className="toolbarButton"
-                      onClick={() => setMeasureSelection([null, null])}
-                      type="button"
-                    >
-                      Clear
-                    </button>
-                  </div>
-                </div>
-
-                <div className="sidebarCard browseInfoCard">
-                  <div className="measureReadout">
-                    <strong>Loaded Tile Level</strong>
-                    <small>{activeTileLevel.id.toUpperCase()}</small>
-                  </div>
-                  <div className="measureReadout">
-                    <strong>Rotation</strong>
-                    <small>{Math.round(rotationDeg)}°</small>
-                  </div>
-                  <p className="controlHint">
-                    {SOURCE_NOTES[0]}
-                  </p>
-                </div>
               </div>
             </>
           ) : (
@@ -967,15 +922,6 @@ export function MiddleEarthExplorer() {
                     <p>No images are available for this place yet.</p>
                   </div>
                 )}
-              </div>
-
-              <div className="sidebarCard sourceCard">
-                <p className="eyebrow">Reference Basis</p>
-                <ul>
-                  {SOURCE_NOTES.map((note) => (
-                    <li key={note}>{note}</li>
-                  ))}
-                </ul>
               </div>
             </div>
           )}
